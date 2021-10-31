@@ -27,18 +27,23 @@
             <h1>WELCOME TO HOTEL FELICITY</h1>
             <h2>LANDING PAGE 2021</h2>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut iure culpa, ea tempora voluptatum omnis
-                voluptatibus, sint repudiandae odit itaque eum. Illo, voluptatem ad quibusdam sit aut fugit officiis optio.
+                voluptatibus, sint repudiandae odit itaque eum. Illo, voluptatem ad quibusdam sit aut fugit officiis
+                optio.
             </p>
             <button>Read more</button>
         </div>
     </div>
-    <div>
-        <p>ARRIVAL DATE<input type="date" name="arrival-date" id="arrival-date"></p>
-        <p>DEPARTURE DATE<input type="date" name="departure-date" id="departure-date"></p>
-        <p>PERSON<input type="number" name="person" id="person"></p>
-        <button type="submit">Book Now</button>
+    <div class="reservations-form">
+        <div>
+            <form action="get">
+                <label>ARRIVAL DATE<input type="date" name="arrival-date" id="arrival-date"></label>
+                <label>DEPARTURE DATE<input type="date" name="departure-date" id="departure-date"></label>
+                <label>PERSON<input type="number" name="person" id="person" placeholder="2"></label>
+                <button type="submit">Book Now</button>
+            </form>
+        </div>
     </div>
-    <div>
+    <div class="left-paragraph">
         <h3>Choose the perfect</h3>
         <h3>Accommodation</h3>
         <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quod saepe ad labore libero dolor, incidunt qui
@@ -49,7 +54,7 @@
         <img src="" alt="Image 2">
         <img src="" alt="Image 3">
     </div>
-    <div>
+    <div class="right-paragraph">
         <h3>Our Best</h3>
         <h3>Breakfast</h3>
         <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quod saepe ad labore libero dolor, incidunt qui
@@ -111,6 +116,9 @@
     <footer>
         Copyright 2021
     </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+        crossorigin="anonymous"></script>
 </body>
 
 </html>
